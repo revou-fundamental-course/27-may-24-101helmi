@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo-icon"></div>
+        <section class="menu">
+            <a class="nav-item" href="#home">Home</a>
+            <a class="nav-item" href="#facilities">My Profile</a>
+            <a class="nav-item" href="#message-us">Message Us</a>
+        </section>
+    </nav>
+    <hr>
+    <section class="section-container">
+        <section id="home">
+            <header>
+                <h1>Hi Visitors, let me introduce myself.</h1>
+            </header>
+            <article>
+                <p>
+                    My name is Helmi Estiawan, just call me Helmi. I'm a fresh graduate from Bachelor of Informatics Engineering in University Surabaya.
+                </p>
+            </article>
+        </section>
+        <hr>
+        <section id="facilities">
+            <header>
+                <h1>My Profile</h1>
+            </header>
+            <article class="facility-list">
+                <div>
+                    <div style="width: 50px; height: 50px; border: 1px solid black;"></div>
+                    <h5>Free Refil</h5>
+                </div>
+                <div>
+                    <div style="width: 50px; height: 50px; border: 1px solid black;"></div>
+                    <h5>Free Refil</h5>
+                </div>
+                <div>
+                    <div style="width: 50px; height: 50px; border: 1px solid black;"></div>
+                    <h5>Free Refil</h5>
+                </div>
+            </article>
+        </section>
+        <hr>
+        <section id="message-us">
+            <header>
+                <h1>Message Me</h1>
+            </header>
+            <section class="message-us-section">
+                <section>
+                    <form action="">
+                        <label for="nama">Nama &emsp;&emsp;&emsp;&emsp; : </label>
+                        <input type="text" id="nama" placeholder="Nama"><br>
+                        <label for="tanggal">Tanggal Lahir &emsp;: </label>
+                        <input type="date" id="tanggal" placeholder="Tanggal Lahir"><br>
+                        <label for="jeniskelamin">Jenis Kelamin &emsp;: </label>
+                        <input type="radio" id="laki-laki" name="gender" value="Laki-laki">
+                        <label for="laki-laki">Laki-Laki</label>
+                        <input type="radio" id="perempuan" name="gender" value="Perempuan">
+                        <label for="perempuan">Perempuan</label><br>
+                        <label for="pesan">Pesan &emsp;&emsp;&emsp;&emsp;  : </label>
+                        <textarea id="pesan" placeholder="Pesan" cols="22" rows="4"></textarea><br><br>
+                        <input type="submit" id="submit" value="Submit">
+                    </form>
+                </section>
+                <section class="result-container">
+                    <div class="form-result"></div>
+                </section>
+            </section>
+        </section>
+    </section>
+</body>
+</html>

@@ -1,0 +1,73 @@
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav section {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+.section-container {
+    background-color: rgba(219, 219, 219, 0.904);
+}
+
+.facility-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-result {
+    height: 100px;
+    border: 1px solid black;
+}
+
+.message-us-section {
+    display: flex;
+}
+
+.result-container {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nav-item {
+        width: 95%;
+        text-align: center;
+    }
+
+    .logo-icon {
+        margin-top: 10px;
+        margin-bottom: 14px;
+        place-self: center;
+    }
+}
